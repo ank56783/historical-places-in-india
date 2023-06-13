@@ -1,0 +1,147 @@
+body{
+    text-align: center;
+    background-color: #CFDBD5;
+    margin: 0;
+    font-family: Playfair Display, serif;
+}
+#title{
+    background: url(images/133811.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 10% 15% 15%;
+    background-repeat: no-repeat;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+}
+
+/* Links */
+
+a{
+    color: maroon;
+    text-decoration: none;
+}
+a:hover{
+    color: #EE4F64;
+}
+
+/* Headings */
+
+h1, h2, h3{
+    text-transform: uppercase;
+    letter-spacing: 1.2rem;
+    font-family: Cinzel, serif;
+}
+h2, h3{
+    font-weight: bold;
+    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+h1{
+    padding-top: 10%;
+    font-size: 4rem;
+    text-align: left;
+    color: #fff;
+    text-shadow: 10px 10px 10px #000;
+}
+h2{
+    padding-bottom: 4%;
+}
+h3{
+    text-decoration: overline;
+    margin-bottom: 3%;
+    color: maroon;
+}
+
+/*Introduction*/
+
+#introduction{
+    margin-top: 5%;
+}
+
+#intro-text{
+    margin: 0 10% 4%;
+    font-size: 1.2rem;
+    color: #4A4A48;
+}
+
+/* Separators */
+
+.sec-divider{
+    border-width: 0 0 5px 0;
+    border-style: dotted;
+    width: 100%;
+}
+
+#separator{
+    margin: 3%;
+}
+.icon{
+    margin-right: 20px;
+}
+
+/* Main content */
+
+#content{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #000;
+}
+
+.places{
+    margin-bottom: 2%;
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    gap: 3%;
+}
+
+img{
+    width: 100%;
+}
+
+#national-anthem{
+    margin: 5% 4% 6%;
+}
+
+/* Footer */
+
+#footer{
+    margin-top: 5%;
+    padding: 3% 5% 1%;
+    background-color: maroon;
+    color: white;
+    text-transform: uppercase;
+    font-family: Cinzel, serif;
+    letter-spacing: 1rem;
+    text-shadow: 2px 2px 2px #fff;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 800px)   {
+    body{
+        font-size: 1rem;
+    }
+
+    h1{
+        font-size: 2rem;
+        letter-spacing: 1rem;
+        text-align: left;
+        font-weight: bold;
+    }
+    .places{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 80%;
+        align-self: center;
+    }
+    h3{
+        margin-top: 5%;
+    }
+}
